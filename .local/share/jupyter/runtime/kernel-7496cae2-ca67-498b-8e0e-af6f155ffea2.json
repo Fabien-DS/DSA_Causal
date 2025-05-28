@@ -1,0 +1,13 @@
+{
+  "shell_port": 58191,
+  "iopub_port": 42621,
+  "stdin_port": 40375,
+  "control_port": 46733,
+  "hb_port": 39615,
+  "ip": "127.0.0.1",
+  "key": "c5cd0f2e-18d0055e07939760159789cc",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/DSA_Exercice 1 - DoWhy.ipynb"
+}
