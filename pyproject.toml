@@ -1,0 +1,11 @@
+[project]
+name = "dsa-causal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "doubleml>=0.10.0",
+    "dowhy>=0.12",
+    "econml>=0.15.1",
+]
