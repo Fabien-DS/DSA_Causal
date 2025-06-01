@@ -423,6 +423,9 @@ dependencies = [
     { name = "doubleml" },
     { name = "dowhy" },
     { name = "econml" },
+    { name = "plotly" },
+    { name = "pygraphviz", version = "1.11", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "pygraphviz", version = "1.14", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
 ]
 
 [package.metadata]
@@ -430,6 +433,8 @@ requires-dist = [
     { name = "doubleml", specifier = ">=0.10.0" },
     { name = "dowhy", specifier = ">=0.12" },
     { name = "econml", specifier = ">=0.15.1" },
+    { name = "plotly", specifier = ">=6.1.2" },
+    { name = "pygraphviz", specifier = ">=1.11" },
 ]
 
 [[package]]
@@ -1439,6 +1444,26 @@ sdist = { url = "https://files.pythonhosted.org/packages/d1/c3/6034ed1ebf2e3ba95
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0a/16/984c0cf5073a23154b1f95c9d131b14c9fea83bfadae4ba8fc169daded11/pydot-4.0.0-py3-none-any.whl", hash = "sha256:cf86e13a6cfe2a96758a9702537f77e0ac1368db8ef277b4d3b34473ea425c97", size = 37535, upload-time = "2025-05-04T11:13:01.458Z" },
 ]
+
+[[package]]
+name = "pygraphviz"
+version = "1.11"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.10'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/19/db/cc09516573e79a35ac73f437bdcf27893939923d1d06b439897ffc7f3217/pygraphviz-1.11.zip", hash = "sha256:a97eb5ced266f45053ebb1f2c6c6d29091690503e3a5c14be7f908b37b06f2d4", size = 120803, upload-time = "2023-06-01T16:23:45.932Z" }
+
+[[package]]
+name = "pygraphviz"
+version = "1.14"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.12'",
+    "python_full_version == '3.11.*'",
+    "python_full_version == '3.10.*'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/66/ca/823d5c74a73d6b8b08e1f5aea12468ef334f0732c65cbb18df2a7f285c87/pygraphviz-1.14.tar.gz", hash = "sha256:c10df02377f4e39b00ae17c862f4ee7e5767317f1c6b2dfd04cea6acc7fc2bea", size = 106003, upload-time = "2024-09-29T18:31:12.471Z" }
 
 [[package]]
 name = "pyparsing"

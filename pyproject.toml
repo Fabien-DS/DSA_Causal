@@ -8,4 +8,6 @@ dependencies = [
     "doubleml>=0.10.0",
     "dowhy>=0.12",
     "econml>=0.15.1",
+    "plotly>=6.1.2",
+    "pygraphviz>=1.11",
 ]
